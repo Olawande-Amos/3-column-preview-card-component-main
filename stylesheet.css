@@ -104,3 +104,28 @@ button:hover{
   border: 2px solid hsl(0, 0%, 95%);
   color: hsl(0, 0%, 95%);
 }
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .containerr {
+    flex-direction: column;
+  }
+  .sedans {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 80vw;
+  }
+  .suvs {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 80vw;
+  }
+  .luxury {
+    margin-top: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 80vw;
+  }
+  
+}
