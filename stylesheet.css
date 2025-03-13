@@ -112,11 +112,13 @@ button:hover{
     flex-direction: column;
   }
   .sedans {
+    margin-top: 10px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     width: 80vw;
   }
   .suvs {
+    margin-top: 10px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     width: 80vw;
